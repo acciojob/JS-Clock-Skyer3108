@@ -1,8 +1,8 @@
 //your code here
 
-
-
 setInterval(()=>{
+
+	console.log('bfwyqusijkdvvdwuhik')
 
 	const now=new Date();
 	
@@ -16,7 +16,7 @@ const secondHand=document.querySelector('.second-hand')
 
 
 	const hourAngle=(hour*30)+(0.5*min); // Each hour is 30 degrees, and each minute is 0.5 degrees
-    const minAngle=(minute*6)+(0.1*second);//Each minute is 6 degrees, and each second is 0.1 degrees/
+    const minAngle=(min*6)+(0.1*sec);//Each minute is 6 degrees, and each second is 0.1 degrees/
 	 const secAngle=sec*6;//Each second is 6 degrees
 
 	hourHand.style.transform=`rotate(${hourAngle}deg)`
@@ -25,3 +25,7 @@ const secondHand=document.querySelector('.second-hand')
 
 	secondHand.style.transform=`rotate(${secAngle}deg)`
 },1000)
+
+
+
+
