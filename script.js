@@ -20,7 +20,7 @@ const secondHand=document.querySelector('.second-hand')
 
 	 const hourAngle = (hour * 30) + (0.5 * min)+90; // Each hour is 30 degrees, and each minute is 0.5 degrees
 	console.log(hourAngle)
-  const minuteAngle = (min * 6) + (0.1 * sec)+90; // Each minute is 6 degrees, and each second is 0.1 degrees
+  const minuteAngle = (min * 6)+90; // Each minute is 6 degrees, and each second is 0.1 degrees
   const secAngle = sec * 6+90;
 
 
